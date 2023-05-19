@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+
+body {
+    background-color: silver;
+}
+#create_button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border: 2 px solid teal;
+
+}
+
+.todo {
+    width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    width: 250px;
+    height: 50px;
+    border: 2 px solid teal;
+}
+
+#todo_list {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.block_text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 440px;
+    border: 2px solid teal;
+    padding: 8px;
+    margin-top: 20px;
+    color: rgb(57, 169, 102);
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.delete_button {
+    position: absolute;
+    margin-left: 380px;
+    padding: 8px;
+    background-color: rgb(232, 13, 13);
+    border: 2px solid teal;
+    color: white;
+}
+
+.edit_button {
+    position: absolute; 
+    margin-left: 320px;
+    padding: 8px 14px;
+    background-color: rgb(186, 226, 6);
+    border: 2px solid teal;
+    color: white;
+}
